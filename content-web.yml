@@ -1,0 +1,8 @@
+on:
+  push:
+    branches:
+    - main
+    paths:
+    - 'content-api/**'
+    - web.deployment.yml  # These two file
+    - web.service.yml     # entries here
